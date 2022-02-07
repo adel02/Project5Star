@@ -14,4 +14,19 @@ Le projet est composé de deux étapes :
 Pour rendre le Train ferroriaire classic intelligent, on va utilisé different detecteurs connecté a une machine central qui collecte en temps réel ces information, les traites et enfin affiche l'état global de chaque compartiment et voiture du train. L'état est simplifié en un rang entre 0 et 5. Le 0 signifie que le compartiment est risqué, et il y a une forte probabilité de contamination si un voyageur est infecté par le virus. Le 5 signifie que le compartiment est très bien monitoré, et il y a moins de risque qu'un voyageur infecté contamine les autres voyageur.
 
 Pour mesuré l'état du compartiment dans la probabilité de la contamination, on va utilisé plusieur type de detecteurs :
-- Détecteurs
+Hygiene :
+- Détecteurs de l'occupation des chaises de train.
+- Détecteurs des masques des voyageurs
+- Détecteurs des temperatures des voyageurs
+- Détecteurs des toux et éternuements
+- Détecteurs des movements humain
+- etc
+
+Confort :
+- Détecteurs de la température
+- Détecteurs de l'humidité
+- Détecteurs de CO2
+- Détecteurs de particule
+- Détecteurs de bruit
+- Détecteurs de vibration de train
+- etc
